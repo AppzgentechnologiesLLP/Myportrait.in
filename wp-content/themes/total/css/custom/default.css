@@ -1,0 +1,196 @@
+/*--------------------------------------- Default Properties -----------------*/
+/* line 86, ../../scss/default.scss */
+a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+
+/* line 89, ../../scss/default.scss */
+.custom-footer {
+  color: #FFF;
+  display: flex;
+}
+/* line 93, ../../scss/default.scss */
+.custom-footer .footer-text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 100, ../../scss/default.scss */
+#primary {
+  width: auto;
+  float: none;
+}
+
+/* ------------------------------ Home Page ------------------------------*/
+/* line 108, ../../scss/default.scss */
+.container-home .section-main .block-view {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+/* line 114, ../../scss/default.scss */
+.container-home .section-main .block-view .section-view {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+/* line 118, ../../scss/default.scss */
+.container-home .section-main .block-view .section-view .section-media {
+  max-width: 340px;
+  max-height: 340px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+/* line 126, ../../scss/default.scss */
+.container-home .section-main .block-view .section-view .section-media .img-main {
+  -webkit-transition: transform 1s ease-out;
+  -moz-transition: transform 1s ease-out;
+  -ms-transition: transform 1s ease-out;
+  -o-transition: transform 1s ease-out;
+  transition: transform 1s ease-out;
+}
+/* line 130, ../../scss/default.scss */
+.container-home .section-main .block-view .section-view .section-media .view-as {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 1s ease-out;
+  color: #FFF;
+}
+/* line 143, ../../scss/default.scss */
+.container-home .section-main .block-view .section-view .section-media:hover .img-main, .container-home .section-main .block-view .section-view .section-media:focus .img-main {
+  transform: scale(1.1);
+}
+/* line 146, ../../scss/default.scss */
+.container-home .section-main .block-view .section-view .section-media:hover .view-as, .container-home .section-main .block-view .section-view .section-media:focus .view-as {
+  opacity: 1;
+}
+
+/* line 158, ../../scss/default.scss */
+.container-customer .section-main .block-common-select {
+  margin-top: 20px;
+}
+/* line 163, ../../scss/default.scss */
+.container-customer .section-main .block-btn-group .section-btn-group .btn-block {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 168, ../../scss/default.scss */
+.container-customer .section-main .block-btn-group .section-btn-group .btn-block .img-bg {
+  width: 40px;
+  height: 40px;
+  -webkit-box-shadow: inset 0 0px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 0px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0px 2px rgba(0, 0, 0, 0.2);
+}
+/* line 173, ../../scss/default.scss */
+.container-customer .section-main .block-btn-group .section-btn-group .btn-block .img-bg img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+/* line 181, ../../scss/default.scss */
+.container-customer .section-main .btn-next {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+/* line 187, ../../scss/default.scss */
+.container-customer .section-main .section-selected .card-block {
+  padding: 0;
+}
+/* line 190, ../../scss/default.scss */
+.container-customer .section-main .section-selected .btn-group-selected {
+  margin-bottom: 20px;
+}
+/* line 193, ../../scss/default.scss */
+.container-customer .section-main .section-selected .social-list {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 200, ../../scss/default.scss */
+.container-customer .section-main .section-selected .section-filters-wrap h2 {
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 10px;
+}
+/* line 204, ../../scss/default.scss */
+.container-customer .section-main .section-selected .section-filters-wrap h2::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+}
+/* line 213, ../../scss/default.scss */
+.container-customer .section-main .section-selected .section-filters-wrap .btn-group {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+/* line 217, ../../scss/default.scss */
+.container-customer .section-main .section-selected .section-filters-wrap .btn-group .btn {
+  font-size: 0.8rem;
+}
+/* line 220, ../../scss/default.scss */
+.container-customer .section-main .section-selected .section-filters-wrap .btn-group:last-child {
+  margin-top: 20px;
+}
+
+/* line 232, ../../scss/default.scss */
+.block-works .section-work .card {
+  position: relative;
+}
+/* line 235, ../../scss/default.scss */
+.block-works .section-work .card .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+/* line 244, ../../scss/default.scss */
+.block-works .section-work .card .overlay h2 {
+  text-align: center;
+  color: #FFF;
+  font-size: 11px;
+}
+
+/* line 255, ../../scss/default.scss */
+.block-artist .top-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 260, ../../scss/default.scss */
+.block-artist .block-reselection-frame {
+  margin-top: 10px;
+}
+/* line 264, ../../scss/default.scss */
+.block-artist .card-block {
+  padding: 0;
+}
+/* line 267, ../../scss/default.scss */
+.block-artist .social-list {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
